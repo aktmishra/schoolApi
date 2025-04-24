@@ -17,6 +17,8 @@ This is a RESTful API built with Node.js, Express.js, and MySQL for managing sch
    - Endpoint: /listSchools
    - Method: GET
    - Parameters: User's latitude and longitude.
+   - For Example: /listSchools?latitude=2&longitude=-2&limit=10&offset=0
+   - limit : This parameter is totally optional 
 
 ## Technologies Used
 
