@@ -54,7 +54,9 @@ db.connect((err) => {
 //  db.end();
 // });
 
- 
+ app.get("/", (req,res)=>{
+    res.send("Hii, This is an assignment")
+ })
 
 // Validate latitude and longitude
 const validateCoordinates = (latitude, longitude) => {
